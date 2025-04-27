@@ -1,0 +1,3 @@
+Base\Base.class
+pages\LoginPage.class
+Locators\Loc_Login.class
