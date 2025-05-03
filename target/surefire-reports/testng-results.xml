@@ -2,24 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-27T21:26:15 BDT" name="All Test Suite" finished-at="2025-04-27T21:26:24 BDT" duration-ms="9135">
+  <suite started-at="2025-05-03T09:56:55 BDT" name="All Test Suite" finished-at="2025-05-03T09:57:11 BDT" duration-ms="15706">
     <groups>
     </groups>
-    <test started-at="2025-04-27T21:26:15 BDT" name="I:/Workspaces/Intellij/OrangeHrm" finished-at="2025-04-27T21:26:24 BDT" duration-ms="9135">
-      <class name="tests.testLoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.testLoginPage@14dd9eb7]" started-at="2025-04-27T21:26:15 BDT" name="setup" finished-at="2025-04-27T21:26:22 BDT" duration-ms="7150" status="PASS">
+    <test started-at="2025-05-03T09:56:55 BDT" name="I:/Workspaces/Intellij/OrangeHrm" finished-at="2025-05-03T09:57:11 BDT" duration-ms="15706">
+      <class name="tests.TestLoginPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestLoginPage@1a451d4d]" started-at="2025-05-03T09:56:55 BDT" name="setup" finished-at="2025-05-03T09:57:08 BDT" duration-ms="12725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWithValidCred()[pri:0, instance:tests.testLoginPage@14dd9eb7]" started-at="2025-04-27T21:26:22 BDT" name="loginWithValidCred" finished-at="2025-04-27T21:26:24 BDT" duration-ms="1605" status="PASS">
+        <test-method signature="loginWithValidCred(java.lang.String,java.lang.String)[pri:0, instance:tests.TestLoginPage@1a451d4d]" started-at="2025-05-03T09:57:08 BDT" name="loginWithValidCred" finished-at="2025-05-03T09:57:09 BDT" duration-ms="1556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCred -->
-        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:tests.testLoginPage@14dd9eb7]" started-at="2025-04-27T21:26:24 BDT" name="quiteBrowser" finished-at="2025-04-27T21:26:24 BDT" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:tests.TestLoginPage@1a451d4d]" started-at="2025-05-03T09:57:09 BDT" name="quiteBrowser" finished-at="2025-05-03T09:57:11 BDT" duration-ms="1361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quiteBrowser -->
-      </class> <!-- tests.testLoginPage -->
+      </class> <!-- tests.TestLoginPage -->
     </test> <!-- I:/Workspaces/Intellij/OrangeHrm -->
   </suite> <!-- All Test Suite -->
 </testng-results>

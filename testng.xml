@@ -3,11 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="I:/Workspaces/Intellij/OrangeHrm">
         <classes>
-<<<<<<< HEAD
             <class name="tests.TestLoginPage">
-=======
-            <class name="tests.testLoginPage">
->>>>>>> e6dc38c714501eb2d4a0638cbd5beaef153dc2f0
                 <methods>
                     <include name="loginWithValidCred"/>
                 </methods>

@@ -1,2 +1,2 @@
-tests\testLoginPage.class
+tests\TestLoginPage.class
 tests\BaseTest.class
