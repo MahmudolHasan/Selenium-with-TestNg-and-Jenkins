@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-03T10:01:11 BDT" name="All Test Suite" finished-at="2025-05-03T10:01:25 BDT" duration-ms="14175">
+  <suite started-at="2025-05-03T10:07:06 BDT" name="All Test Suite" finished-at="2025-05-03T10:07:22 BDT" duration-ms="16283">
     <groups>
     </groups>
-    <test started-at="2025-05-03T10:01:11 BDT" name="I:/Workspaces/Intellij/OrangeHrm" finished-at="2025-05-03T10:01:25 BDT" duration-ms="14175">
+    <test started-at="2025-05-03T10:07:06 BDT" name="I:/Workspaces/Intellij/OrangeHrm" finished-at="2025-05-03T10:07:22 BDT" duration-ms="16283">
       <class name="tests.TestLoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestLoginPage@1a451d4d]" started-at="2025-05-03T10:01:11 BDT" name="setup" finished-at="2025-05-03T10:01:22 BDT" duration-ms="11199" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestLoginPage@1a451d4d]" started-at="2025-05-03T10:07:06 BDT" name="setup" finished-at="2025-05-03T10:07:19 BDT" duration-ms="12929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWithValidCred(java.lang.String,java.lang.String)[pri:0, instance:tests.TestLoginPage@1a451d4d]" started-at="2025-05-03T10:01:22 BDT" name="loginWithValidCred" finished-at="2025-05-03T10:01:24 BDT" duration-ms="1581" status="PASS">
+        <test-method signature="loginWithValidCred(java.lang.String,java.lang.String)[pri:0, instance:tests.TestLoginPage@1a451d4d]" started-at="2025-05-03T10:07:19 BDT" name="loginWithValidCred" finished-at="2025-05-03T10:07:21 BDT" duration-ms="1619" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCred -->
-        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:tests.TestLoginPage@1a451d4d]" started-at="2025-05-03T10:01:24 BDT" name="quiteBrowser" finished-at="2025-05-03T10:01:25 BDT" duration-ms="1343" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:tests.TestLoginPage@1a451d4d]" started-at="2025-05-03T10:07:21 BDT" name="quiteBrowser" finished-at="2025-05-03T10:07:22 BDT" duration-ms="1701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quiteBrowser -->
